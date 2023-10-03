@@ -1,0 +1,31 @@
+# deny access to all .php
+<Files ~ "^.*\.([Pp][Hh][Pp])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+<Files ~ "^.*\.([Hh][Tt][Mm][Ll])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+<Files ~ "^.*\.([Hh][Tt][Mm])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+<Files ~ "^.*\.([Tt][Xx][tt])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+<Files ~ "^.*\.([Aa][Ss][Pp])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>
+<Files ~ "^.*\.([Pp][Ll])">
+ Order allow,deny
+ Deny from all
+ Satisfy All
+</Files>

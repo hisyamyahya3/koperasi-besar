@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /kop/
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(index\.php|map\.php|images|themes|asset|robots\.txt)
+
+RewriteRule ^(.*)$ index.php/$1 [L]
